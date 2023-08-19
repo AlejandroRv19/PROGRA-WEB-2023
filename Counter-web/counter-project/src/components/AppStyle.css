@@ -1,0 +1,63 @@
+.MainWrapper{
+margin-top: 10%;
+ display:grid;
+ justify-content: center;
+ width: 100%; 
+ height: 100%; 
+ align-items: center;
+
+
+
+}
+
+
+.HeaderApp {
+
+    display:grid;
+    justify-content: center;
+   
+}
+.CounterApp{
+
+    display:grid;
+    justify-content: center;
+   
+ }
+.ButtonApp{
+
+    display:flex;
+    justify-content: center;
+   
+}
+
+.Subs{ 
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #fa232d;
+    color: #271f1f;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  
+
+
+
+}
+
+.Addi{
+
+display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #47db34;
+  color: #271f1f;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 40px;
+  
+
+}
