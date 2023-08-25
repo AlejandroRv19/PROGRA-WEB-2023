@@ -8,6 +8,7 @@ margin-top: 10%;
 
 
 
+
 }
 
 
@@ -30,34 +31,42 @@ margin-top: 10%;
    
 }
 
-.Subs{ 
+.Subs {
     display: inline-block;
     padding: 10px 20px;
     font-size: 16px;
     background-color: #fa232d;
-    color: #271f1f;
     border: none;
     border-radius: 12px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-  
-
-
-
+    box-shadow: 0px 2px 4px rgb(15, 1, 1); /* Agregar sombra */
+    font-family: 'Arial', sans-serif; /* Cambiar la tipografía */
+    color:aliceblue
 }
 
-.Addi{
+.Subs:hover {
+    background-color: #a71721; /* Cambiar el color de fondo al pasar el mouse */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Cambiar la sombra al pasar el mouse */
+}
 
-display: inline-block;
-  padding: 10px 20px;
-  font-size: 16px;
-  background-color: #47db34;
-  color: #271f1f;
-  border: none;
-  border-radius: 12px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  margin-left: 40px;
-  
 
+.Addi {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #47db34;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 40px;
+    box-shadow: 0px 2px 4px rgba(15, 1, 1); /* Agregar sombra */
+    font-family: 'Arial', sans-serif; /* Cambiar la tipografía */
+    color:aliceblue
+}
+
+.Addi:hover {
+    background-color: #23a010; /* Cambiar el color de fondo al pasar el mouse */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Cambiar la sombra al pasar el mouse */
 }
